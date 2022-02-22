@@ -1,0 +1,94 @@
+﻿section {
+    text-align: center;
+}
+/*Unvisited link*/
+.mylink:link {
+    color: gold;
+    text-decoration: none;
+}
+/*Visited link*/ 
+.mylink:visited{
+    color: red;
+    text-decoration: none;
+}
+/*Hover link*/
+.mylink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/*Selected link*/ 
+.mylink:active{
+    color: mediumvioletred;
+    text-decoration: none;
+}
+button{
+    background-color: teal;
+    color: white;
+    margin: 5px;
+    padding:10px;
+    border: 2px solid red;
+    
+}
+    button:hover {
+        background-color: tan;
+        color: black;
+        margin: 5px;
+        padding: 7px;
+        border: 3px solid grey;
+    }
+
+    div p::after{
+        content: ' -- Amm';
+    }
+
+p::before {
+    content: ' So --';
+}
+
+span p::first-line{
+    background-color:red;
+}
+span p::first-letter{
+    background-color:yellow;
+    font-size: xx-large;
+}
+
+::selection {
+    color: white;
+    background: teal;
+}
+h2::first-line {
+    color: darkblue;
+    font-variant: small-caps;
+}
+
+::marker {
+    text-align:right;
+    color: red;
+    font-size: 23px;
+}
+
+img {
+    opacity: 0.5;
+    width: 200px ;
+}
+
+    img:hover {
+        opacity: 1.0;
+    }
+#grad {
+    background-image: linear-gradient(to bottom right, pink, tan);
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px teal;
+}
+
+#box{
+    width: 80px;
+    height: 50px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px black;
+}
